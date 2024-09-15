@@ -1,0 +1,110 @@
+body {
+    background: linear-gradient(to right, #BE0909 66%, #FFB039 66%);
+    margin-left: 80px;
+    margin-top: 60px;
+}
+
+
+
+form{
+    position: absolute;
+    width: 954px;
+    height: 594px;
+    font-family: "Roboto", sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 21px;
+    letter-spacing: 0.3em;
+    color: #FEFFFF;
+
+}
+
+input{
+    font-family: "Roboto", sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 21px;
+    letter-spacing: 0.3em;
+    color: #FDFFFF;
+    width:100%;
+    padding: 27px;
+    background:none;
+    border:0;
+    border-bottom:1px solid #9DBEBB
+}
+
+input::placeholder {
+    color: #FFFFFF; 
+    opacity: 1; 
+}
+
+
+
+#name{
+    width: 400px;
+    height: 72px;
+    margin-bottom: 20px;
+    padding: 20px;
+
+}
+
+#email {
+    width: 160px;
+    height: 72px;
+    margin-bottom: 20px;
+    padding: 20px;
+ 
+}
+
+#regarding {
+    width: 213px;
+    height: 72px;
+    margin-bottom: 20px;
+    padding: 20px;
+    
+}
+
+#yourmessage{
+    width: 400px;
+    height: 72px;
+    margin-bottom: 20px;
+    padding: 20px;
+
+}
+
+button{
+
+    position: absolute;
+    width: 202px;
+    height: 48px;
+    border-radius: 40px;
+    left: 407px;
+    top: 635px;
+    background-color: #468189;
+    font-family: "Roboto" ,sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 21px;
+    text-align: center;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    border: none;
+}
+
+.button:hover{
+    background:#468199;
+}
+
+section{
+position: absolute;
+width: 663px;
+height: 603px;
+left: 585px;
+top: 205px;
+background: url(hiclipart.png);
+}
+
